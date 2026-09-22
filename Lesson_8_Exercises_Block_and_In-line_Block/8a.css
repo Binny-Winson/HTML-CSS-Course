@@ -1,0 +1,12 @@
+.text-box {
+  border-style: solid;
+  border-radius: 3px;
+  border-color: gray;
+  border-width: 1px;
+  width: 200px;
+  height: 22px;
+  font-family: Arial;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
