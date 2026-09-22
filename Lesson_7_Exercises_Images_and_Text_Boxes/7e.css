@@ -1,0 +1,35 @@
+.search-box {
+  /*field-sizing: content;*/
+  width: 400px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: none;
+  border-radius: 15.8595px;
+  box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1); 
+}
+.search-box:focus, .search-box:active {
+  border-color: gray;
+  outline: none;
+}
+
+/*Notes
+For an even shadow on all sides, you don't need four shadows at all. Zero offset with some blur radiates in every direction:
+
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+
+If you want it a bit heavier, add spread as the fourth value — it grows the shadow outward evenly before the blur is applied:
+
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.25);
+
+And if you did want genuinely different shadows per side, the comma syntax is how — offsets go negative, blur stays positive:
+
+    box-shadow:
+      0  3px 3px rgba(0, 0, 0, 0.3),
+      0 -2px 2px rgba(0, 0, 0, 0.15),
+      2px 0  2px rgba(0, 0, 0, 0.2),
+    -2px 0  2px rgba(0, 0, 0, 0.2);
+
+They stack in order, first on top.
+*/

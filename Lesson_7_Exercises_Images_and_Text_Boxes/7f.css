@@ -1,0 +1,30 @@
+p, input, button {
+  margin: 0;
+}
+.input-name {
+  color: gray;
+  margin-bottom: 5px;
+}
+.input-field {
+  width: 300px;
+  border-style: solid;
+  border-color: gray;
+  border-radius: 3px;
+  margin-bottom: 16px;
+  border-width: 2px;
+  padding: 8px 10px;
+}
+.disclaimer {
+  color: gray;
+  margin-bottom: 16px;
+}
+.agree-join-button {
+  width: 300px;
+  height: 40px;
+  background-color: rgb(24, 119, 242);
+  color: white;
+  font-size: 14px;
+  border-width: 1px;
+  border-radius: 20px;
+  border: none;
+}

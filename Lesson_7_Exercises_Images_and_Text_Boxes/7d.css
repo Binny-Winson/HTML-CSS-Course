@@ -1,0 +1,14 @@
+.search-box {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-color: lightgray;
+}
+.search-box:focus, .search-box:active {
+  border-color: gray;
+  outline: none;
+}
