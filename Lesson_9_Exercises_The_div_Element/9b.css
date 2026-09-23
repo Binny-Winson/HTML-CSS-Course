@@ -1,0 +1,7 @@
+.div-circle {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border: none;
+  border-radius: 50%;
+}

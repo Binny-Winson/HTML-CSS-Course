@@ -1,0 +1,21 @@
+p {
+  font-family: Arial;
+  margin: none;
+  padding: none;
+}
+.background {
+  background-color: rgba(0, 0, 0, 0.815);
+  border-style: none;
+  padding: 4px 20px;
+  width: 310px;
+}
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.sub-title {
+  color: lightgray;
+  font-weight: 500;
+  font-size: 14px;
+}

@@ -1,0 +1,35 @@
+.profile-info {
+  width: 130px;
+  height: 220px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+}
+.profile-picture {
+  width: 130px;
+  height: 130px;
+  object-position: center center;
+  object-fit: cover;
+  margin-bottom: 0px;
+  padding: 0;
+}
+.profile-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-bottom: 0px;
+}
+.total-friends {
+  font-size: 14px;
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-bottom: 0px;
+}
+.add-friend-button {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  padding: 8px 12px;
+  border-style: none;
+  margin-top: 5px;
+  margin-left: 3px;
+  border-radius: 4px;
+}
