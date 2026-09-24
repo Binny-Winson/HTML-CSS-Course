@@ -1,0 +1,10 @@
+.defining-grid {
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+.col-1 {
+  background-color: lightpink;
+}
+.col-2 {
+  background-color: lightblue;
+}
