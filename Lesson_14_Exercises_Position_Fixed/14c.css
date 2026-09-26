@@ -1,0 +1,17 @@
+body {
+  height: 3000px;
+}
+.background-cover {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom:0;
+  /* We can also use inset: 0px which achieves the same as top/right/bottom/left: 0;*/
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
